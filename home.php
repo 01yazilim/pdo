@@ -16,7 +16,7 @@
 				}else{
 					if($result['ip']!=$ip){
 						header('Location:login.php');
-						exit;
+						exit; SErkan Serkan was here!!!
 					}else{
 						//GEREKLİ İŞLEMLER BURADA YAPILACAK
 						//GEREKLİ İŞLEMLER BURADA YAPILACAK
