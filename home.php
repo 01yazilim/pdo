@@ -3,6 +3,7 @@
 
 		if (!isset($_SESSION["login"]) || !isset($_SESSION["eposta"])) {
 			header("Location:login.php");
+			exit;
 		}else{
 				$ip = $_SERVER['REMOTE_ADDR'];
 				$sorgu = $db->prepare('SELECT * FROM hesap WHERE eposta=?');
